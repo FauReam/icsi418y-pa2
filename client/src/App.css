@@ -1,0 +1,76 @@
+.app {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 0 16px;
+    text-align: center;
+}
+
+.tabs {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.tab {
+    padding: 8px 20px;
+    border: 1px solid #888;
+    background: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.tab.active {
+    background: #646cff;
+    border-color: #646cff;
+    color: #fff;
+}
+
+.card {
+    border: 1px solid #444;
+    border-radius: 10px;
+    padding: 24px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+input {
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #888;
+    font-size: 14px;
+}
+
+button[type="submit"] {
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    background: #646cff;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background: #535bf2;
+}
+
+.message {
+    margin-top: 16px;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.message.success {
+    color: #1a7f37;
+    background: #dafbe1;
+}
+
+.message.error {
+    color: #cf222e;
+    background: #ffebe9;
+}
